@@ -101,7 +101,7 @@ client.on('messageCreate', async message => {
     }
 });
 
-client.login(config.token).catch(error => {
+client.login(process.env.TOKEN).catch(error => {
     console.error('خطأ في تسجيل الدخول:', error.message);
     console.log('تأكد من صحة التوكن في ملف config.json');
 });
