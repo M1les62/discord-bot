@@ -1,0 +1,19 @@
+{
+  "name": "thikir-bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "hook"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "islamic",
+    "athkar"
+  ],
+  "author": "hook",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.21.0"
+  }
+}
